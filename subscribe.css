@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black, -3px 3px 3px black, 3px -3px 3px black, -3px -3px 3px black;
+    position: absolute;
+    top: 100px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+input{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+input:hover{
+    color: white;
+}
